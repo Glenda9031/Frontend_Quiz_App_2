@@ -39,42 +39,112 @@
       </div>
     </article>
 
+    <!-- Quiz menu start -->
+
+    <article class="start-menu">
+      <div class="left-content">
+        <h1>Welcome to the <span class="bolded">Frontend Quiz!</span></h1>
+        <p>Pick a subject to get started.</p>
+      </div>
+
+      <div class="choices">
+        <button id="HTML" class="quiz-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-html.svg" alt="html icon">
+          </div>HTML
+        </button>
+
+        <button id="CSS" class="quiz-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-css.svg" alt="css icon">
+          </div>CSS
+        </button>
+
+        <button id="JavaScript" class="quiz-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-js.svg" alt="js icon">
+          </div>JavaScript
+        </button>
+
+        <button id="Accessibility" class="quiz-type">
+          <div class="button-icon-container">
+            <img src="./assets/images/icon-accessibility.svg" alt="accessibility icon">
+          </div>Accessibility
+        </button>
+      </div>
+    </article>
+
+    <!-- Quiz menu end -->
+
+    <!-- Quiz question start -->
+
+    <article class="question-screen">
+      <div class="left-content">
+        <div class="question-wrapper">
+          <p class="question-count">Question <span class="question-number"><!-- number --></span> of <span class="question-total"><!-- total --></span></p>
+          <h2 class="question">Placeholder</h2>
+        </div>
+        <div class="progress-bar whole">
+          <div class="progress-bar done">
+
+          </div>
+        </div>
+      </div>
+      <div class="choices options">
+        <button id="A" class="option">
+          <div class="option-box">A</div>
+        </button>
+
+        <button id="B" class="option">
+          <div class="option-box">B</div>
+        </button>
+
+        <button id="C" class="option">
+          <div class="option-box">C</div>
+        </button>
+
+        <button id="D" class="option">
+          <div class="option-box">D</div>
+        </button>
+
+        <button class="submit-answer">Submit Answer</button>
+        <div class="select-prompt">
+          <img src="./assets/images/icon-error.svg" alt="error icon">
+          <p class="select-prompt-text">Please select an answer</p>
+        </div>
+      </div>
+    </article>
+
+    <!-- Quiz question end -->
+
+    <!-- Quiz completed start -->
+
+    <article class="quiz-complete">
+      <div class="complete-left">
+        <h1>Quiz completed
+          <span class="scored">You scored...</span>
+        </h1>
+      </div>
+
+      <div class="complete-right">
+        <div class="score-container">
+          <div class="final curr-subject">
+            <div class="button-icon-container">
+              <img src="./assets/images/icon-css.svg" alt="subject icon" class="subject-img">
+            </div>
+            <!-- <img src="" class="subject-img" -->
+            <h2 class="subject-chosen">some Subject</h2>
+          </div>
+          <h1 class="final-score"><!-- score --></h1>
+          <p class="score-out-of">out of <span class="complete-question-total">totalQ</span></p>
+        </div>
+        <button class="restart">Play Again</button>
+      </div>
+    </article>
+
+    <!-- Quiz completed end -->
     
   </main>
-
-  <!-- Quiz menu start -->
-
-  Welcome to the Frontend Quiz!
-  Pick a subject to get started.
-
-  HTML
-  CSS
-  JavaScript
-  Accessibility
-
-  <!-- Quiz menu end -->
-
-  <!-- Quiz question start -->
-
-  Question <!-- number --> of 10
-
-  A
-  B
-  C
-  D
-
-  Submit answer
-
-  <!-- Quiz question end -->
-
-  <!-- Quiz completed start -->
-
-  Quiz completed
-  You scored...
-
-  <!-- score --> out of 10
-
-  <!-- Quiz completed end -->
 
 </body>
 </html>
