@@ -269,21 +269,24 @@ button:hover {
     background: linear-gradient(0deg, rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, 0.50) 100%), var(--purple);
 }
 
-.button-icon-container > img {
+.button-icon-container>img {
     border-radius: .75rem;
     padding: .15rem;
 }
 
-.button-icon-container > img[src="./assets/images/icon-html.svg"] {
+.button-icon-container>img[src="./assets/images/icon-html.svg"] {
     background-color: var(--html-bg);
 }
 
-.button-icon-container > img[src="./assets/images/icon-css.svg"] {
+.button-icon-container>img[src="./assets/images/icon-css.svg"] {
     background-color: var(--css-bg);
 }
-.button-icon-container > img[src="./assets/images/icon-js.svg"] {
+
+.button-icon-container>img[src="./assets/images/icon-js.svg"] {
     background-color: var(--js-bg);
 }
-.button-icon-container > img[src="./assets/images/icon-accessibility.svg"] {
+
+.button-icon-container>img[src="./assets/images/icon-accessibility.svg"] {
     background-color: var(--accessibility-bg);
 }
+
